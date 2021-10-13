@@ -1,0 +1,7 @@
+.list {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  row-gap: 15px;
+}
+/*# sourceMappingURL=List.module.css.map */

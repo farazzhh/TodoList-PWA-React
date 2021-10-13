@@ -1,0 +1,65 @@
+li h3 {
+  font-size: 19px;
+  text-transform: capitalize;
+}
+
+li p {
+  font-size: 14px;
+}
+
+.item {
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  width: 200px;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  -webkit-box-shadow: rgba(105, 105, 105, 0.4) 0 0 5px 0.1px;
+          box-shadow: rgba(105, 105, 105, 0.4) 0 0 5px 0.1px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.completed_item {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: rgba(144, 238, 144, 0.482);
+  border: 1px solid lightgray;
+  width: 200px;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  -webkit-box-shadow: rgba(105, 105, 105, 0.4) 0 0 5px 0.1px;
+          box-shadow: rgba(105, 105, 105, 0.4) 0 0 5px 0.1px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 3px 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 300;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.done_buttons {
+  background-color: navy;
+}
+
+.undone_buttons {
+  background-color: green;
+}
+
+.remove_buttons {
+  background-color: darkred;
+}
+
+.border {
+  border-bottom: lightgray 0.5px solid;
+  border-top: lightgray 0.5px solid;
+  padding: 5px 0;
+}
+/*# sourceMappingURL=list_item.module.css.map */
