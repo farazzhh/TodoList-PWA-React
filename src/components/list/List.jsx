@@ -63,7 +63,7 @@ const List = () => {
   return (
     <div className="h-100">
       <div className=" text-center container py-1 ">
-        <h1 className="card-title text-light">Todo List (React)</h1>
+        <h4 className="card-title text-light m-3">TodoList (PWA React app)</h4>
         <Input addNewItem={addNewItem} />
         <div className="mt-3 ">
           <ul className={styles.list}>

@@ -6,9 +6,7 @@ function App() {
 
   return (
     <div className="App bg-dark">
-      <div className=" ">
         <List />
-      </div>
     </div>
   );
 }
